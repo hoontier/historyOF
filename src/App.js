@@ -33,7 +33,7 @@ function App() {
       }
     }
     
-    // Longer history request
+    // Longer history request. The '1000 words' is a rough estimate of the desired length of the response. They will often be shorter. 
     const optionsLong = {
       method: 'POST',
       body: JSON.stringify({

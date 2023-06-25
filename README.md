@@ -1,86 +1,20 @@
-# HistoryOf Mini-Project
-## Enter an event, location, group, etc. and learn about its history.
-Recieve a short and long form synopsys of the requested history. 
-This is a spin on a youtube tutorial I found that walks you though how to make a ChatGPT clone.
-### Tutorial source: (https://youtu.be/JJ9fkYX7q4A)
+# History of Mini-Project
+## Enter an event, location, group, etc., and learn about its history.
+Receive a short and long-form synopsis of the requested history. This project is inspired by a YouTube tutorial that guides you through creating a ChatGPT clone.
 
-I basically did everything shown in the tutorial, but called the API twice onSubmit, and used string interpolation to curate a the specific requests. 
+### Tutorial source: [https://youtu.be/JJ9fkYX7q4A](https://youtu.be/JJ9fkYX7q4A)
+I followed the tutorial closely and made some modifications. Instead of a single API call, I made two calls `onSubmit`, utilizing interpolation to curate specific requests.
 
-## How To Run
-### `npm run start:frontend`
-Starts the front-end portion of the app.
-### `npm run start:backend`
-Starts the back-end portion. Once this command is complete, the webpage will have full funcitonality.
+## How to Run
+To start the front-end portion of the app, use the command: `npm run start:frontend`.
+To start the back-end portion, use the command: `npm run start:backend`. Once this command is complete, the webpage will have full functionality.
 
+## Word Repetitions and Improper Grammar
+You may notice that some words are repeated in the long-form responses. This is because GPT expects them to be section headings. However, our code currently lacks a mechanism for parsing and styling section headings.
+To demonstrate:
+The app will return text like this: "The Korean War Following the conclusion of World War II..."
+When it should be formatted like this:
+### The Korean War 
+Following the conclusion of World War II...
 
-### I started this application using Create React App. Its typical documentation is below. 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### I developed this application using Create React App.
