@@ -1,4 +1,4 @@
-# History of Mini-Project
+# HistoryOf Mini-Project
 ## Enter an event, location, group, etc., and learn about its history.
 Receive a short and long-form synopsis of the requested history. This project is inspired by a YouTube tutorial that guides you through creating a ChatGPT clone.
 
