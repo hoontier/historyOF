@@ -1,3 +1,19 @@
+# HistoryOf Mini-Project
+## Enter an event, location, group, etc. and learn about its history.
+Recieve a short and long form synopsys of the requested history. 
+This is a spin on a youtube tutorial I found that walks you though how to make a ChatGPT clone.
+### Tutorial source: (https://youtu.be/JJ9fkYX7q4A)
+
+I basically did everything shown in the tutorial, but called the API twice onSubmit, and used string interpolation to curate a the specific requests. 
+
+## How To Run
+### `npm run start:frontend`
+Starts the front-end portion of the app.
+### `npm run start:backend`
+Starts the back-end portion. Once this command is complete, the webpage will have full funcitonality.
+
+
+### I started this application using Create React App. Its typical documentation is below. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
